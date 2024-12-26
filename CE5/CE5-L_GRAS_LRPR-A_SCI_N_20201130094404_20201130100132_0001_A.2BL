@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:pds="http://pds.nasa.gov/pds4/pds/v1" xmlns:sp="http://pds.nasa.gov/pds4/sp/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pds.nasa.gov/pds4/pds/v1,https://starbase.jpl.nasa.gov/pds4/1500/dph_example_products/xml_schema/PDS4_PDS_1500.xsd,http://pds.nasa.gov/pds4/sp/v1 PDS4_SP_1001.xsd">
+	<Identification_Area>
+		<logical_identifier>CE5-L_GRAS_LRPR-A_SCI_N_20201130094404_20201130100132_0001.2B</logical_identifier>
+		<version_id>1.0</version_id>
+		<title>Chang'E 5(CE-5) Lander mission</title>
+		<information_model_version>1.5.0.0</information_model_version>
+		<product_class>Product_Observational</product_class>
+		<Modification_History>
+			<Modification_Detail>
+				<modification_date>2020-12-01</modification_date>
+				<version_id>1.0</version_id>
+				<description>First release.</description>
+			</Modification_Detail>
+		</Modification_History>
+	</Identification_Area>
+	<Reference_List>None</Reference_List>
+	<Observation_Area>
+		<Time_Coordinates>
+			<start_date_time>2020-11-30T09:44:04.134Z</start_date_time>
+			<stop_date_time>2020-11-30T10:01:32.151Z</stop_date_time>
+		</Time_Coordinates>
+		<Primary_Result_Summary>
+			<purpose>Science</purpose>
+			<processing_level>Calibrated</processing_level>
+			<Science_Facets>
+				<wavelength_range>Microwave</wavelength_range>
+				<domain>Surface</domain>
+			</Science_Facets>
+		</Primary_Result_Summary>
+		<Investigation_Area>
+			<name>CE5</name>
+			<type>Mission</type>
+		</Investigation_Area>
+		<Observing_System>
+			<name>CE5 Lander</name>
+			<Observing_System_Component>
+				<name>Lunar Regolith Penetrating Radar</name>
+				<type>Instrument</type>
+				<description>Description for the LRPR gain values: The LRPR has 240 gain values. The scientific data include 3000 points with the gain value interval set as 4 points. The first 4*240 points correspond to the 240 gains values and the residual points corresponds to the last gain value. The formula for gain value is -Gcode/2 = 20 * log10 ( Vout/Vraw ),in which Gcode is the gain values, Vout is the scientific data, and Vraw is the raw sampled data.</description>
+			</Observing_System_Component>
+		</Observing_System>
+		<Target_Identification>
+			<name>Lunar</name>
+			<type>Satellite</type>
+		</Target_Identification>
+		<Background_Identification>
+			<Landing_time>2020-12-01T15:11:12.000Z</Landing_time>
+		</Background_Identification>
+		<Mission_Area>
+			<product_id>CE5-L_GRAS_LRPR-A_SCI_N_20201130094404_20201130100132_0001_A.2B</product_id>
+			<product_version>A</product_version>
+			<product_level>2B</product_level>
+			<instrument_name>Lunar Regolith Penetrating Radar</instrument_name>
+			<instrument_id>LRPR</instrument_id>
+			<sequence_id>0001</sequence_id>
+			<Work_Mode_Parm>
+				<sample_interval unit="picoseconds">18.315</sample_interval>
+				<center_frequency unit="MHz">2000</center_frequency>
+			</Work_Mode_Parm>
+			<Lander_Location>
+				<reference_frame>MOON_COORDINATE_SYSTEM</reference_frame>
+				<Longitude>0.0</Longitude>
+				<latitude>0.0</latitude>
+				<altitude>0.0</altitude>
+			</Lander_Location>
+			<Vector_Cartesian_3_Position>
+				<reference_frame>LANDER_COORDINATE_SYSTEM</reference_frame>
+				<center_point_location_X>0.0</center_point_location_X>
+				<center_point_location_Y>0.0</center_point_location_Y>
+				<center_point_location_Z>0.0</center_point_location_Z>
+				<antenna1_X>0.0</antenna1_X>
+				<antenna1_Y>0.0</antenna1_Y>
+				<antenna1_Z>0.0</antenna1_Z>
+				<antenna2_X>0.0</antenna2_X>
+				<antenna2_Y>0.0</antenna2_Y>
+				<antenna2_Z>0.0</antenna2_Z>
+				<antenna3_X>0.0</antenna3_X>
+				<antenna3_Y>0.0</antenna3_Y>
+				<antenna3_Z>0.0</antenna3_Z>
+				<antenna4_X>0.0</antenna4_X>
+				<antenna4_Y>0.0</antenna4_Y>
+				<antenna4_Z>0.0</antenna4_Z>
+				<antenna5_X>0.0</antenna5_X>
+				<antenna5_Y>0.0</antenna5_Y>
+				<antenna5_Z>0.0</antenna5_Z>
+				<antenna6_X>0.0</antenna6_X>
+				<antenna6_Y>0.0</antenna6_Y>
+				<antenna6_Z>0.0</antenna6_Z>
+				<antenna7_X>0.0</antenna7_X>
+				<antenna7_Y>0.0</antenna7_Y>
+				<antenna7_Z>0.0</antenna7_Z>
+				<antenna8_X>0.0</antenna8_X>
+				<antenna8_Y>0.0</antenna8_Y>
+				<antenna8_Z>0.0</antenna8_Z>
+				<antenna9_X>0.0</antenna9_X>
+				<antenna9_Y>0.0</antenna9_Y>
+				<antenna9_Z>0.0</antenna9_Z>
+				<antenna10_X>0.0</antenna10_X>
+				<antenna10_Y>0.0</antenna10_Y>
+				<antenna10_Z>0.0</antenna10_Z>
+				<antenna11_X>0.0</antenna11_X>
+				<antenna11_Y>0.0</antenna11_Y>
+				<antenna11_Z>0.0</antenna11_Z>
+				<antenna12_X>0.0</antenna12_X>
+				<antenna12_Y>0.0</antenna12_Y>
+				<antenna12_Z>0.0</antenna12_Z>
+			</Vector_Cartesian_3_Position>
+		</Mission_Area>
+	</Observation_Area>
+	<File_Area_Observational>
+		<File>
+			<file_name>CE5-L_GRAS_LRPR-A_SCI_N_20201130094404_20201130100132_0001_A.2B</file_name>
+			<local_identifier>None</local_identifier>
+			<creation_date_time>2021-07-30T09:14:32Z</creation_date_time>
+			<file_size unit="byte">1625052</file_size>
+			<records>132</records>
+		</File>
+		<Table_Binary>
+			<offset unit="byte">0</offset>
+			<records>132</records>
+			<Record_Binary>
+				<fields>8</fields>
+				<groups>2</groups>
+				<record_length unit="byte">12311</record_length>
+				<Field_Binary>
+					<name>Frame Identifier</name>
+					<field_number>1</field_number>
+					<field_location unit="byte">1</field_location>
+					<data_type>UnsignedBitString</data_type>
+					<field_length unit="byte">4</field_length>
+					<field_format>%8s</field_format>
+					<unit>none</unit>
+					<description>道标识</description>
+				</Field_Binary>
+				<Field_Binary>
+					<name>Transmitter-Reciever ID</name>
+					<field_number>2</field_number>
+					<field_location unit="byte">5</field_location>
+					<data_type>UnsignedBitString</data_type>
+					<field_length unit="byte">1</field_length>
+					<field_format>%2s</field_format>
+					<unit>none</unit>
+					<description>收发标识</description>
+				</Field_Binary>
+				<Field_Binary>
+					<name>Image ID</name>
+					<field_number>3</field_number>
+					<field_location unit="byte">6</field_location>
+					<data_type>UnsignedBitString</data_type>
+					<field_length unit="byte">1</field_length>
+					<field_format>%2s</field_format>
+					<unit>none</unit>
+					<description>图像索引</description>
+				</Field_Binary>
+				<Field_Binary>
+					<name>Time</name>
+					<field_number>4</field_number>
+					<field_location unit="byte">7</field_location>
+					<data_type>UnsignedBitString</data_type>
+					<field_length unit="byte">6</field_length>
+					<field_format>%24s</field_format>
+					<unit>none</unit>
+					<description>时间码</description>
+				</Field_Binary>
+				<Field_Binary>
+					<name>DataParameter</name>
+					<field_number>5</field_number>
+					<field_location unit="byte">13</field_location>
+					<data_type>UnsignedBitString</data_type>
+					<field_length unit="byte">54</field_length>
+					<field_format />
+					<unit>none</unit>
+					<description>道参数</description>
+				</Field_Binary>
+				<Field_Binary>
+					<name>Record Number</name>
+					<field_number>6</field_number>
+					<field_location unit="byte">67</field_location>
+					<data_type>UnsignedMSB2</data_type>
+					<field_length unit="byte">2</field_length>
+					<field_format>%4d</field_format>
+					<unit>none</unit>
+					<description>道计数</description>
+				</Field_Binary>
+				<Field_Binary>
+					<name>Record Length</name>
+					<field_number>7</field_number>
+					<field_location unit="byte">69</field_location>
+					<data_type>UnsignedMSB2</data_type>
+					<field_length unit="byte">2</field_length>
+					<field_format>%4d</field_format>
+					<unit>none</unit>
+					<description>数据长度</description>
+				</Field_Binary>
+				<Group_Field_Binary>
+					<name>Gain array</name>
+					<group_number>1</group_number>
+					<repetitions>240</repetitions>
+					<fields>1</fields>
+					<groups>0</groups>
+					<group_location unit="byte">71</group_location>
+					<group_length unit="byte">240</group_length>
+					<Field_Binary>
+						<name>Gain array</name>
+						<field_number>1</field_number>
+						<field_location unit="byte">71</field_location>
+						<data_type>UnsignedByte</data_type>
+						<field_length unit="byte">1</field_length>
+						<field_format>%2d</field_format>
+						<unit>none</unit>
+                            <description>增益值</description>
+					</Field_Binary>
+				</Group_Field_Binary>
+				<Group_Field_Binary>
+					<name>Science Data</name>
+					<group_number>2</group_number>
+					<repetitions>3000</repetitions>
+					<fields>1</fields>
+					<groups>0</groups>
+					<group_location unit="byte">311</group_location>
+					<group_length unit="byte">12000</group_length>
+					<Field_Binary>
+						<name>Science Data</name>
+						<field_number>1</field_number>
+						<field_location unit="byte">311</field_location>
+						<data_type>IEEE754MSBSingle</data_type>
+						<field_length unit="byte">4</field_length>
+						<field_format>%.3f</field_format>
+						<unit>none</unit>
+						<description>道科学数据</description>
+					</Field_Binary>
+				</Group_Field_Binary>
+				<Field_Binary>
+					<name>Quality</name>
+					<field_number>8</field_number>
+					<field_location unit="byte">12311</field_location>
+					<data_type>UnsignedBitString</data_type>
+					<field_length unit="byte">1</field_length>
+					<field_format>%2s</field_format>
+					<unit>none</unit>
+					<description>质量状态</description>
+				</Field_Binary>
+			</Record_Binary>
+		</Table_Binary>
+	</File_Area_Observational>
+</Product_Observational>
